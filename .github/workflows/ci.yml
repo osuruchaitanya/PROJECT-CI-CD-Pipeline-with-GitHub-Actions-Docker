@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
@@ -11,24 +11,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout repo
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           cd app
           npm install
 
+      # Step 4: Run tests
       - name: Run tests
         run: |
           cd app
           npm test
 
-      - name: Build Docker image
+      # Step 5: Login to Docker Hub
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      # Step 6: Build & Push Docker image
+      - name: Build and Push Docker image
         run: |
-          docker build -t ci-cd-app .
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/ci-cd-app:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/ci-cd-app:latest
