@@ -70,9 +70,16 @@ DOCKER_HUB_USERNAME
 
 DOCKER_HUB_ACCESS_TOKEN
 
+----
 ### Screenshots
 ![image pipe](Screenshot-P1.png)
 ![image pipe](Screenshot -P2.png)
+
+
+
+
+
+-----
 ✅ Conclusion
 
 This project simplifies development and deployment by automating the build, test, and deployment process, following industry-standard CI/CD practices.
