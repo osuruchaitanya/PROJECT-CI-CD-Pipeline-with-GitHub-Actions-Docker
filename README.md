@@ -73,7 +73,7 @@ DOCKER_HUB_ACCESS_TOKEN
 ----
 ### Screenshots
 ![image pipe](Screenshot-P1.png)
-![image pipe](Screenshot -P2.png)
+![image pipe](https://github.com/osuruchaitanya/PROJECT-CI-CD-Pipeline-with-GitHub-Actions-Docker/blob/d1d6f1c57c67221ca66d3d88f128f76cd1d4e337/Screenshot%20-P2.png)
 
 
 
