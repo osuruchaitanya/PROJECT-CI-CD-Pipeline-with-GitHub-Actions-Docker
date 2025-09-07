@@ -75,7 +75,7 @@ DOCKER_HUB_ACCESS_TOKEN
 ![image pipe](Screenshot-P1.png)
 ![image pipe](https://github.com/osuruchaitanya/PROJECT-CI-CD-Pipeline-with-GitHub-Actions-Docker/blob/d1d6f1c57c67221ca66d3d88f128f76cd1d4e337/Screenshot%20-P2.png)
 ![image pipe](https://github.com/osuruchaitanya/PROJECT-CI-CD-Pipeline-with-GitHub-Actions-Docker/blob/ef05a5442edda79de9ffe7c17df545366eb79a8f/Screenshot%20-P3.png)
-
+![image pipe](https://github.com/osuruchaitanya/PROJECT-CI-CD-Pipeline-with-GitHub-Actions-Docker/blob/30ce4cfd72b479d9446758e8e1cb98f42cbcea88/Screenshot%20-P4.png)
 
 
 
